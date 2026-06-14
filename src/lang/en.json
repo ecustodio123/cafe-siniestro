@@ -1,52 +1,303 @@
 {
   "meta": {
-    "title": "Landing Starter Kit"
+    "title": "Café Siniestro | Risk, insurance and supply chain",
+    "description": "Café Siniestro: courses, talks and publications about risk management, insurance and supply chain claims."
   },
   "language": {
     "switchLabel": "Language",
     "en": "EN",
     "es": "ES"
   },
-  "logo": {
-    "subtitle": "Starter Landing Kit"
+  "brand": {
+    "name": "Café Siniestro",
+    "subtitle": "Risk, insurance and supply chain"
   },
   "header": {
     "homeAria": "Go to homepage",
-    "navAria": "Primary navigation"
+    "navAria": "Primary navigation",
+    "cta": "Let's talk",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "navigation": {
     "home": "Home",
-    "components": "Components",
-    "about": "About",
+    "courses": "Courses",
+    "blog": "Blog",
     "contact": "Contact"
   },
-  "social": {
-    "facebook": "Facebook",
-    "instagram": "Instagram",
-    "tiktok": "TikTok"
+  "footer": {
+    "description": "A space to explore risk management, insurance and supply chain claims with a cup of knowledge.",
+    "highlights": {
+      "courses": "Courses and webinars",
+      "publications": "Technical publications",
+      "events": "In-person events"
+    },
+    "rights": "© 2026 Café Siniestro. Knowledge for risk decisions."
   },
-  "business": {
-    "phoneHref": "9737919770",
-    "phoneDisplay": "973-791-9770",
-    "whatsappHref": "https://wa.me/19737919770?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment.",
-    "social": {
-      "facebook": "https://www.facebook.com/",
-      "instagram": "https://www.instagram.com/",
-      "tiktok": "https://www.tiktok.com/"
+  "common": {
+    "readMore": "Read more",
+    "contact": "Contact",
+    "talk": "Talk",
+    "backToBlog": "Back to blog"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Risk management, insurance and claims",
+      "title": "Where every claim becomes a lesson.",
+      "description": "Courses, talks and publications to understand risk, insurance and supply chain with technical judgment.",
+      "primaryCta": "Explore agenda",
+      "secondaryCta": "Read publications",
+      "topicsAria": "Main topics",
+      "topic1": "Logistics claims",
+      "topic2": "Insurance assessment",
+      "topic3": "Supply chain risk",
+      "proof": "For insurance, logistics and risk management professionals",
+      "visualAria": "Café Siniestro visual summary",
+      "visualTitle": "Risk, insurance and supply chain without detours.",
+      "signalRisk": "Risk management",
+      "signalSupply": "Supply chain",
+      "signalTalks": "Practical talks",
+      "eventEyebrow": "Living agenda",
+      "eventText": "Cases, webinars and courses for professionals who need applicable judgment."
+    },
+    "statsAria": "Café Siniestro summary",
+    "method": {
+      "eyebrow": "Café Siniestro Method",
+      "title": "From incident to professional judgment.",
+      "description": "We use real cases to think better about the next risk."
+    },
+    "about": {
+      "eyebrow": "Who we are",
+      "title": "A specialized space to learn from real risks.",
+      "description": "We bring together analysis, training and professional conversation about insurance, claims and supply chain."
+    },
+    "agenda": {
+      "eyebrow": "Initial agenda",
+      "title": "Courses and talks focused on real cases.",
+      "description": "A short agenda for courses, webinars and specialized sessions.",
+      "primaryCta": "View full agenda",
+      "secondaryCta": "Request a talk"
+    },
+    "blog": {
+      "eyebrow": "Blog",
+      "title": "Ideas and resources to keep learning.",
+      "cta": "View publications"
+    },
+    "cta": {
+      "eyebrow": "Next step",
+      "title": "Let's build a knowledge agenda for your team or community.",
+      "description": "Talks, courses or events to turn risk into clear decisions."
     }
   },
-  "mainNav": {
-    "categories": {
-      "skinConditions": "Skin Conditions",
-      "procedures": "Procedures",
-      "laserEnergy": "Laser & Energy",
-      "esthetics": "Esthetics"
+  "stats": {
+    "risk": {
+      "value": "Risk",
+      "label": "Clear case reading"
     },
+    "cases": {
+      "value": "Cases",
+      "label": "Applied learning"
+    },
+    "agenda": {
+      "value": "Agenda",
+      "label": "Courses and talks"
+    }
+  },
+  "focusAreas": {
+    "riskManagement": {
+      "title": "Risk management",
+      "description": "Prevention, scenario reading and decision-making around events that affect operations."
+    },
+    "insuranceClaims": {
+      "title": "Insurance and claims",
+      "description": "Concepts, processes and technical criteria to understand claims, coverage and damage assessment."
+    },
+    "supplyChain": {
+      "title": "Supply chain",
+      "description": "Risks in transport, storage, distribution and operational continuity of cargo."
+    }
+  },
+  "methodSteps": {
+    "observe": {
+      "number": "01",
+      "title": "We observe the claim",
+      "description": "We start with losses, damage, delays and responsibilities."
+    },
+    "evidence": {
+      "number": "02",
+      "title": "We read the evidence",
+      "description": "We organize documents, traceability and early signals."
+    },
+    "translate": {
+      "number": "03",
+      "title": "We translate judgment",
+      "description": "We turn the case into clear classes, guides and conversations."
+    }
+  },
+  "coursesPage": {
+    "hero": {
+      "eyebrow": "Courses and talks",
+      "title": "Training to read claims with professional judgment.",
+      "description": "Courses and talks to understand risks, claims and logistics operations without excessive theory.",
+      "primaryCta": "Request a talk",
+      "secondaryCta": "View resources"
+    },
+    "feature": {
+      "duration": "Duration",
+      "mode": "Format",
+      "level": "Level"
+    },
+    "agenda": {
+      "eyebrow": "Initial agenda",
+      "title": "Topics ready for courses, webinars or talks.",
+      "cta": "Build a custom agenda"
+    },
+    "cta": {
+      "eyebrow": "Custom training",
+      "title": "Want to adapt a topic for your team or event?",
+      "description": "We can turn it into a course, webinar or internal talk."
+    },
+    "courseLink": "Ask about this topic"
+  },
+  "courses": {
+    "supplyChainClaimsBasics": {
+      "title": "Supply chain claims fundamentals",
+      "tag": "Intro course",
+      "duration": "4 sessions",
+      "mode": "Live online",
+      "level": "Technical basics",
+      "outcome": "Understand the full flow of a logistics claim",
+      "description": "A clear introduction to how a logistics claim happens, is documented and analyzed.",
+      "topics": {
+        "traceability": "Traceability",
+        "documentation": "Documentation",
+        "responsibilities": "Responsibilities"
+      }
+    },
+    "logisticsRiskManagement": {
+      "title": "Risk management for logistics operations",
+      "tag": "Workshop",
+      "duration": "2 sessions",
+      "mode": "Online",
+      "level": "Applied",
+      "outcome": "Detect critical points before they escalate",
+      "description": "Practical tools to identify critical points in transport, storage and distribution.",
+      "topics": {
+        "riskMapping": "Risk mapping",
+        "controls": "Controls",
+        "continuity": "Operational continuity"
+      }
+    },
+    "assessmentEvidenceCriteria": {
+      "title": "Assessment, evidence and evaluation criteria",
+      "tag": "Talk",
+      "duration": "Single event",
+      "mode": "In person",
+      "level": "Specialized",
+      "outcome": "Read evidence and technical criteria with more clarity",
+      "description": "A technical conversation about documentation, evidence, responsibility and damage reading.",
+      "topics": {
+        "evidence": "Evidence",
+        "damage": "Damage",
+        "assessmentCriteria": "Assessment criteria"
+      }
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "eyebrow": "Blog and resources",
+      "title": "A library to read claims with more context.",
+      "description": "Publications and guides to understand risk, insurance and evidence in supply chain."
+    },
+    "brief": {
+      "title": "Content that supports the conversation.",
+      "description": "Each publication can open a future talk, guide or course."
+    },
+    "cta": {
+      "eyebrow": "Next publications",
+      "title": "Do you have a case or topic that should become content?",
+      "description": "We can turn it into an article, guide or starting point for a talk.",
+      "button": "Suggest topic"
+    }
+  },
+  "blogPosts": {
+    "beforeAccident": {
+      "title": "Why a logistics claim starts before the accident",
+      "category": "Risk",
+      "type": "Analysis",
+      "readTime": "6 min",
+      "excerpt": "Early signals, operational decisions and key controls.",
+      "body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed justo non sem fermentum aliquet. Suspendisse potenti. Duis luctus, lacus at dignissim posuere, lectus nibh consequat arcu, vitae gravida justo lorem sed urna.",
+        "Praesent euismod magna id lectus luctus, sed posuere mauris viverra. Aenean at neque sed libero facilisis finibus. Curabitur tempor, mi vel pretium bibendum, augue erat vulputate nisl, sed commodo orci mauris non justo.",
+        "Aliquam erat volutpat. Nunc accumsan, erat vitae feugiat iaculis, sem turpis consequat ipsum, sed ullamcorper mi risus sed justo. Donec vitae lacus at risus hendrerit luctus."
+      ]
+    },
+    "transportClaimDocuments": {
+      "title": "Key documents to analyze a transport claim",
+      "category": "Insurance",
+      "type": "Guide",
+      "readTime": "8 min",
+      "excerpt": "Evidence, traceability and useful records to evaluate a case.",
+      "body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum at eros cursus luctus. Sed non velit vitae lorem egestas porttitor. Donec aliquam enim vel neque porttitor, et dictum augue facilisis.",
+        "Morbi a neque et justo pretium fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sed arcu vel justo tincidunt posuere.",
+        "Vivamus ac ligula turpis. Integer consequat, mi in pretium sagittis, justo lorem feugiat augue, sit amet laoreet libero neque in massa."
+      ]
+    },
+    "supplyChainVisibility": {
+      "title": "Supply chain: where visibility gets lost",
+      "category": "Supply chain",
+      "type": "Checklist",
+      "readTime": "5 min",
+      "excerpt": "Blind spots in warehouses, routes and custody transfers.",
+      "body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac nisi vel libero vulputate pretium. Integer sed libero at lorem rhoncus pulvinar id non lacus.",
+        "Etiam interdum leo eu magna efficitur, a vulputate velit egestas. Sed a justo tempor, hendrerit lectus nec, faucibus nisl. Integer dignissim lectus in tellus porta tristique.",
+        "Cras finibus, justo vel fermentum interdum, orci neque sagittis est, id viverra sapien magna a augue. Phasellus luctus sapien ut orci feugiat, sed gravida est convallis."
+      ]
+    }
+  },
+  "article": {
+    "placeholderTitle": "Lorem ipsum dolor sit amet",
+    "placeholderParagraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae augue sapien. Sed imperdiet, sem non sagittis eleifend, libero augue vulputate risus, vitae viverra neque mi vitae lectus.",
+    "placeholderParagraph2": "Maecenas blandit dui ut odio vulputate, quis porta lectus viverra. Fusce nec tincidunt est. Vestibulum vitae fermentum ipsum, id viverra tortor."
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about courses, talks or partnerships.",
+      "description": "Café Siniestro can adapt to corporate events, open sessions, webinars and specialized content."
+    },
+    "panelTitle": "What do you need to organize?",
     "options": {
-      "option1": "Option 1",
-      "option2": "Option 2",
-      "option3": "Option 3",
-      "option4": "Option 4"
+      "talk": "A talk or webinar",
+      "course": "A course for your team",
+      "content": "A content collaboration"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "email@company.com",
+      "interest": "Interest",
+      "selectPlaceholder": "Select an option",
+      "message": "Message",
+      "messagePlaceholder": "Briefly tell us what you need",
+      "submit": "Send inquiry",
+      "options": {
+        "course": "Course",
+        "webinar": "Webinar",
+        "event": "In-person event",
+        "content": "Publication or partnership"
+      }
+    }
+  },
+  "pages": {
+    "notFound": {
+      "title": "404 - Page not found",
+      "description": "The route you are looking for is not available.",
+      "backHome": "Back home"
     }
   },
   "carousel": {
@@ -54,199 +305,5 @@
     "next": "Show next",
     "controls": "Carousel controls",
     "goToView": "Go to view"
-  },
-  "home": {
-    "hero": {
-      "title": "Build premium landing pages faster with a reusable starter",
-      "description": "This white-label app includes routing, design tokens, responsive blocks, and reusable components ready to adapt for any business niche.",
-      "cta": "Start New Landing",
-      "imageAlt": "Starter hero"
-    },
-    "hero2": {
-      "kicker": "Reusable Alternate Hero",
-      "title": "Visual hero with prop-based variants",
-      "description": "Use variant=\"a\" or variant=\"b\" to switch the style without duplicating components while keeping your white-label base ready.",
-      "cta": "Book a consultation",
-      "imageAlt": "Smiling person in alternate hero block",
-      "badgeValue": "15+",
-      "badgeLabel": "Years of experience"
-    },
-    "aboutTeaser": {
-      "kicker": "Reusable Block",
-      "title": "About teaser to present your value proposition",
-      "description": "This block summarizes core strengths and routes users to a deeper detail page.",
-      "listAria": "About teaser strengths",
-      "point1": "Compatible with white-label and multi-industry projects",
-      "point2": "Decoupled copy and image for quick adaptation",
-      "point3": "Configurable CTA to fit your funnel",
-      "cta": "View more components",
-      "imageAlt": "Team assisting a satisfied customer"
-    },
-    "servicesBlock2": {
-      "title": "Featured Services (Reusable Block)",
-      "description": "Expanded services grid with key points and support chips.",
-      "intro": "Use it when you need to explain services clearly at scale with a structure ready for larger catalogs.",
-      "supportTitle": "Complementary services",
-      "cta": "Chat on WhatsApp",
-      "allServicesCta": "View all components"
-    },
-    "ctaStrip": {
-      "kicker": "CTA Block",
-      "title": "Conversion-focused CTA strip",
-      "description": "Ideal for pushing quick booking via WhatsApp or phone with minimal friction.",
-      "primaryCta": "Book on WhatsApp",
-      "secondaryCta": "Call now"
-    },
-    "socialLinksBlock": {
-      "title": "Social Links (Reusable Component)",
-      "description": "Social icon set ready to use in footer, contact, or promotional sections."
-    },
-    "servicesBlock": {
-      "title": "Reusable Service Cards Carousel",
-      "description": "Click-and-drag loop carousel with mobile autoplay that you can reuse in landing pages."
-    },
-    "testimonialsBlock": {
-      "title": "Testimonials Section",
-      "description": "Simple reusable card grid for social proof."
-    }
-  },
-  "contactBlock": {
-    "title": "Contact Block",
-    "description": "Reusable contact section with form + map.",
-    "fields": {
-      "fullName": "Full Name*",
-      "phone": "Phone*",
-      "email": "Email*",
-      "interestedIn": "Interested in",
-      "message": "Message"
-    },
-    "options": {
-      "option1": "Option 1",
-      "option2": "Option 2",
-      "option3": "Option 3"
-    },
-    "sending": "Sending...",
-    "feedback": {
-      "success": "Message sent successfully. We will contact you soon.",
-      "error": "We could not send your message. Please try again in a moment.",
-      "configError": "EmailJS environment variables are missing."
-    },
-    "submit": "Submit",
-    "mapTitle": "Demo map"
-  },
-  "pages": {
-    "components": {
-      "title": "Components Showcase",
-      "description": "Reusable primitives and composites.",
-      "buttonPrimary": "Primary Button",
-      "buttonSecondary": "Secondary Button",
-      "buttonOutline": "Outline Button"
-    },
-    "notFound": {
-      "title": "404 - Page Not Found",
-      "description": "This route is not available in the starter kit.",
-      "backHome": "Back Home"
-    }
-  },
-  "footer": {
-    "title": "Landing Starter Kit",
-    "description": "Reusable React + Tailwind + Router foundation for fast client delivery.",
-    "highlights": {
-      "cloneBuild": "Ready for clone-and-build workflow",
-      "tokenBased": "Token-based theming",
-      "responsive": "Responsive defaults"
-    },
-    "rights": "© 2026 Landing Starter Kit. Built for reusable freelance workflows."
-  },
-  "catalog": {
-    "serviceShowcase": {
-      "generalConsultation": {
-        "title": "General Consultation",
-        "description": "Comprehensive evaluation to identify current status and top priorities.",
-        "point1": "Initial clinical check",
-        "point2": "Treatment guidance",
-        "point3": "Recommended follow-up plan"
-      },
-      "cardiologyConsultation": {
-        "title": "Cardiology Consultation",
-        "description": "Specialized service block for cases requiring cardiac monitoring.",
-        "point1": "Complete cardiovascular evaluation",
-        "point2": "Early finding detection",
-        "point3": "Management recommendations",
-        "point4": "Periodic control by risk level"
-      },
-      "traumatologyConsultation": {
-        "title": "Traumatology Consultation",
-        "description": "Care for mobility issues and functional recovery.",
-        "point1": "Functional diagnosis",
-        "point2": "Rehabilitation plan",
-        "point3": "Progress follow-up"
-      },
-      "dermatologyConsultation": {
-        "title": "Dermatology Consultation",
-        "description": "Skin and coat care focused on root causes.",
-        "point1": "Dermatology assessment",
-        "point2": "Care protocol",
-        "point3": "Recurrence control"
-      },
-      "ophthalmologyConsultation": {
-        "title": "Ophthalmology Consultation",
-        "description": "Eye checkups for detection and prevention of visual complications.",
-        "point1": "Baseline eye exam",
-        "point2": "Symptom management",
-        "point3": "Preventive control"
-      },
-      "abdominalUltrasound": {
-        "title": "Abdominal Ultrasound",
-        "description": "Complementary study to support diagnosis and treatment decisions.",
-        "point1": "Non-invasive evaluation",
-        "point2": "Diagnostic support",
-        "point3": "Follow-up reporting"
-      }
-    },
-    "serviceSupport": {
-      "microchipId": "Microchip identification",
-      "pharmacy": "Specialized pharmacy",
-      "petShop": "Pet shop",
-      "homeGuidance": "Home care guidance",
-      "postoperativeFollowup": "Postoperative follow-up",
-      "chronicDiseaseControl": "Chronic condition control"
-    },
-    "services": {
-      "landingArchitecture": {
-        "title": "Landing Architecture",
-        "description": "Prebuilt sections to launch polished one-page and multipage websites."
-      },
-      "designTokens": {
-        "title": "Design Tokens",
-        "description": "Centralized colors and spacing to rebrand projects in minutes."
-      },
-      "reusableComponents": {
-        "title": "Reusable Components",
-        "description": "Buttons, cards, headers, and content blocks built for speed."
-      },
-      "responsiveFirst": {
-        "title": "Responsive First",
-        "description": "Layouts tuned for mobile, tablet, and desktop from day one."
-      },
-      "showcasePage": {
-        "title": "Showcase Page",
-        "description": "A /components view to audit reusable UI before project delivery."
-      }
-    },
-    "testimonials": {
-      "projectOwner": {
-        "name": "Project Owner",
-        "text": "The starter kit reduced setup time and gave us a clean structure for future client pages."
-      },
-      "frontendDeveloper": {
-        "name": "Frontend Developer",
-        "text": "Reusable blocks and tokens made branding changes extremely fast."
-      },
-      "freelanceTeam": {
-        "name": "Freelance Team",
-        "text": "We now clone one repo and ship customized landings in a fraction of the time."
-      }
-    }
   }
 }

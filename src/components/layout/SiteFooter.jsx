@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
+import { siteNav } from "../../data/cafeContent";
 import { useI18n } from "../../lang/i18n";
 import Container from "../primitives/Container";
-import SocialLinks from "../primitives/SocialLinks";
 
 function SiteFooter() {
   const { t } = useI18n();
@@ -10,28 +10,20 @@ function SiteFooter() {
     <footer className="footer">
       <Container className="footer-grid">
         <div className="footer-brand">
-          <h3 style={{ marginTop: 0 }}>{t("footer.title")}</h3>
+          <h3>{t("brand.name")}</h3>
           <p>{t("footer.description")}</p>
-          <SocialLinks tone="footer" />
         </div>
         <ul className="footer-links">
-          <li>
-            <NavLink to="/">{t("navigation.home")}</NavLink>
-          </li>
-          <li>
-            <NavLink to="/components">{t("navigation.components")}</NavLink>
-          </li>
-          <li>
-            <a href="#">{t("navigation.about")}</a>
-          </li>
-          <li>
-            <a href="#">{t("navigation.contact")}</a>
-          </li>
+          {siteNav.map((link) => (
+            <li key={link.to}>
+              <NavLink to={link.to}>{t(`navigation.${link.key}`)}</NavLink>
+            </li>
+          ))}
         </ul>
         <ul className="footer-links">
-          <li>{t("footer.highlights.cloneBuild")}</li>
-          <li>{t("footer.highlights.tokenBased")}</li>
-          <li>{t("footer.highlights.responsive")}</li>
+          <li>{t("footer.highlights.courses")}</li>
+          <li>{t("footer.highlights.publications")}</li>
+          <li>{t("footer.highlights.events")}</li>
         </ul>
       </Container>
       <div className="footer-bottom">{t("footer.rights")}</div>

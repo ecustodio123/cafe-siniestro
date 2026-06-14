@@ -5,10 +5,13 @@ function BrandLogo({ className = "" }) {
 
   return (
     <div className={`brand-logo ${className}`.trim()}>
-      <p className="brand-logo__word">
-        S<span className="accent">O</span>MA
-      </p>
-      <p className="brand-logo__sub">{t("logo.subtitle")}</p>
+      <span className="brand-logo__mark">
+        <img src="/images/cafesiniestro-logo.jpeg" alt="" />
+      </span>
+      <span>
+        <span className="brand-logo__word">{t("brand.name")}</span>
+        <span className="brand-logo__sub">{t("brand.subtitle")}</span>
+      </span>
     </div>
   );
 }

@@ -1,9 +1,11 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import SiteFooter from "./components/layout/SiteFooter";
 import SiteHeader from "./components/layout/SiteHeader";
-import LanguageSwitcher from "./components/layout/LanguageSwitcher";
 import ScrollToTop from "./components/layout/ScrollToTop";
-import ComponentsPage from "./pages/ComponentsPage";
+import BlogPage from "./pages/BlogPage";
+import BlogPostPage from "./pages/BlogPostPage";
+import ContactPage from "./pages/ContactPage";
+import CoursesPage from "./pages/CoursesPage";
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
 
@@ -14,12 +16,14 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/components" element={<ComponentsPage />} />
+        <Route path="/cursos" element={<CoursesPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<BlogPostPage />} />
+        <Route path="/contacto" element={<ContactPage />} />
         <Route path="/404" element={<NotFoundPage />} />
         <Route path="*" element={<Navigate to="/404" replace />} />
       </Routes>
       <SiteFooter />
-      <LanguageSwitcher />
     </>
   );
 }

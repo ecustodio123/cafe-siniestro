@@ -2,11 +2,23 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", "Segoe UI", sans-serif;
   color: var(--color-text-primary);
   background: var(--color-bg-page);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -20,5 +32,5 @@ img {
 }
 
 main {
-  min-height: 60vh;
+  flex: 1;
 }

@@ -1,52 +1,303 @@
 {
   "meta": {
-    "title": "Kit Inicial de Landing"
+    "title": "Café Siniestro | Riesgos, seguros y supply chain",
+    "description": "Café Siniestro: cursos, charlas y publicaciones sobre gestión de riesgos, seguros y siniestros de cadena de suministros."
   },
   "language": {
     "switchLabel": "Idioma",
     "en": "EN",
     "es": "ES"
   },
-  "logo": {
-    "subtitle": "Kit Inicial de Landing"
+  "brand": {
+    "name": "Café Siniestro",
+    "subtitle": "Riesgos, seguros y supply chain"
   },
   "header": {
     "homeAria": "Ir al inicio",
-    "navAria": "Navegación principal"
+    "navAria": "Navegación principal",
+    "cta": "Hablemos",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
   },
   "navigation": {
     "home": "Inicio",
-    "components": "Componentes",
-    "about": "Acerca",
+    "courses": "Cursos",
+    "blog": "Blog",
     "contact": "Contacto"
   },
-  "social": {
-    "facebook": "Facebook",
-    "instagram": "Instagram",
-    "tiktok": "TikTok"
+  "footer": {
+    "description": "Un espacio para explorar gestión de riesgos, seguros y siniestros de cadena de suministros con una taza de conocimiento.",
+    "highlights": {
+      "courses": "Cursos y webinars",
+      "publications": "Publicaciones técnicas",
+      "events": "Eventos presenciales"
+    },
+    "rights": "© 2026 Café Siniestro. Conocimiento para decisiones de riesgo."
   },
-  "business": {
-    "phoneHref": "9737919770",
-    "phoneDisplay": "973-791-9770",
-    "whatsappHref": "https://wa.me/19737919770?text=Hola%2C%20quiero%20agendar%20una%20cita.",
-    "social": {
-      "facebook": "https://www.facebook.com/",
-      "instagram": "https://www.instagram.com/",
-      "tiktok": "https://www.tiktok.com/"
+  "common": {
+    "readMore": "Ver más",
+    "contact": "Contactar",
+    "talk": "Conversar",
+    "backToBlog": "Volver al blog"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Gestión de riesgos, seguros y siniestros",
+      "title": "Donde cada siniestro se convierte en aprendizaje.",
+      "description": "Cursos, charlas y publicaciones para entender riesgos, seguros y cadena de suministros con criterio técnico.",
+      "primaryCta": "Explorar agenda",
+      "secondaryCta": "Leer publicaciones",
+      "topicsAria": "Temas principales",
+      "topic1": "Siniestros logísticos",
+      "topic2": "Peritaje de seguros",
+      "topic3": "Supply chain risk",
+      "proof": "Para profesionales de seguros, logística y gestión de riesgos",
+      "visualAria": "Resumen visual de Café Siniestro",
+      "visualTitle": "Riesgo, seguros y cadena de suministros sin rodeos.",
+      "signalRisk": "Gestión de riesgos",
+      "signalSupply": "Cadena de suministros",
+      "signalTalks": "Charlas con criterio",
+      "eventEyebrow": "Agenda viva",
+      "eventText": "Casos, webinars y cursos para profesionales que necesitan criterio aplicable."
+    },
+    "statsAria": "Resumen de Café Siniestro",
+    "method": {
+      "eyebrow": "Método Café Siniestro",
+      "title": "Del incidente al criterio profesional.",
+      "description": "Miramos casos reales para pensar mejor el siguiente riesgo."
+    },
+    "about": {
+      "eyebrow": "Quiénes somos",
+      "title": "Un espacio especializado para aprender de riesgos reales.",
+      "description": "Reunimos análisis, formación y conversación profesional sobre seguros, siniestros y supply chain."
+    },
+    "agenda": {
+      "eyebrow": "Agenda inicial",
+      "title": "Cursos y exposiciones con foco en casos reales.",
+      "description": "Una agenda breve para cursos, webinars y encuentros especializados.",
+      "primaryCta": "Ver agenda completa",
+      "secondaryCta": "Solicitar charla"
+    },
+    "blog": {
+      "eyebrow": "Blog",
+      "title": "Ideas y recursos para seguir aprendiendo.",
+      "cta": "Ver publicaciones"
+    },
+    "cta": {
+      "eyebrow": "Próximo paso",
+      "title": "Construyamos una agenda de conocimiento para tu equipo o comunidad.",
+      "description": "Charlas, cursos o eventos para traducir riesgo en decisiones claras."
     }
   },
-  "mainNav": {
-    "categories": {
-      "skinConditions": "Condiciones de la piel",
-      "procedures": "Procedimientos",
-      "laserEnergy": "Láser y Energía",
-      "esthetics": "Estética"
+  "stats": {
+    "risk": {
+      "value": "Riesgo",
+      "label": "Lectura clara del caso"
     },
+    "cases": {
+      "value": "Casos",
+      "label": "Aprendizaje aplicado"
+    },
+    "agenda": {
+      "value": "Agenda",
+      "label": "Cursos y charlas"
+    }
+  },
+  "focusAreas": {
+    "riskManagement": {
+      "title": "Gestión de riesgos",
+      "description": "Prevención, lectura de escenarios y toma de decisiones frente a eventos que afectan operaciones."
+    },
+    "insuranceClaims": {
+      "title": "Seguros y siniestros",
+      "description": "Conceptos, procesos y criterios técnicos para comprender reclamos, coberturas y evaluación de daños."
+    },
+    "supplyChain": {
+      "title": "Cadena de suministros",
+      "description": "Riesgos en transporte, almacenamiento, distribución y continuidad operativa de la carga."
+    }
+  },
+  "methodSteps": {
+    "observe": {
+      "number": "01",
+      "title": "Observamos el siniestro",
+      "description": "Partimos de pérdidas, daños, demoras y responsabilidades."
+    },
+    "evidence": {
+      "number": "02",
+      "title": "Leemos la evidencia",
+      "description": "Ordenamos documentos, trazabilidad y señales previas."
+    },
+    "translate": {
+      "number": "03",
+      "title": "Traducimos el criterio",
+      "description": "Convertimos el caso en clases, guías y conversaciones claras."
+    }
+  },
+  "coursesPage": {
+    "hero": {
+      "eyebrow": "Cursos y exposiciones",
+      "title": "Formación para leer siniestros con criterio profesional.",
+      "description": "Cursos y charlas para entender riesgos, reclamos y operaciones logísticas sin exceso de teoría.",
+      "primaryCta": "Solicitar una charla",
+      "secondaryCta": "Ver recursos"
+    },
+    "feature": {
+      "duration": "Duración",
+      "mode": "Modalidad",
+      "level": "Nivel"
+    },
+    "agenda": {
+      "eyebrow": "Agenda inicial",
+      "title": "Temas listos para cursos, webinars o exposiciones.",
+      "cta": "Armar agenda a medida"
+    },
+    "cta": {
+      "eyebrow": "Formación a medida",
+      "title": "¿Quieres adaptar un tema para tu equipo o evento?",
+      "description": "Podemos llevarlo a curso, webinar o charla interna."
+    },
+    "courseLink": "Consultar este tema"
+  },
+  "courses": {
+    "supplyChainClaimsBasics": {
+      "title": "Fundamentos de siniestros en cadena de suministros",
+      "tag": "Curso inicial",
+      "duration": "4 sesiones",
+      "mode": "Online en vivo",
+      "level": "Base técnica",
+      "outcome": "Entender el flujo completo de un siniestro logístico",
+      "description": "Una introducción clara para entender cómo se produce, documenta y analiza un siniestro logístico.",
+      "topics": {
+        "traceability": "Trazabilidad",
+        "documentation": "Documentación",
+        "responsibilities": "Responsabilidades"
+      }
+    },
+    "logisticsRiskManagement": {
+      "title": "Gestión de riesgos para operaciones logísticas",
+      "tag": "Workshop",
+      "duration": "2 sesiones",
+      "mode": "Online",
+      "level": "Aplicado",
+      "outcome": "Detectar puntos críticos antes de que escalen",
+      "description": "Herramientas prácticas para identificar puntos críticos en transporte, almacenamiento y distribución.",
+      "topics": {
+        "riskMapping": "Mapeo de riesgos",
+        "controls": "Controles",
+        "continuity": "Continuidad operativa"
+      }
+    },
+    "assessmentEvidenceCriteria": {
+      "title": "Peritaje, evidencia y criterios de evaluación",
+      "tag": "Exposición",
+      "duration": "Evento único",
+      "mode": "Presencial",
+      "level": "Especializado",
+      "outcome": "Leer evidencia y criterios técnicos con mayor claridad",
+      "description": "Conversatorio técnico sobre documentación, evidencia, responsabilidad y lectura de daños.",
+      "topics": {
+        "evidence": "Evidencia",
+        "damage": "Daños",
+        "assessmentCriteria": "Criterio pericial"
+      }
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "eyebrow": "Blog y recursos",
+      "title": "Una biblioteca para mirar los siniestros con más contexto.",
+      "description": "Publicaciones y guías para entender riesgos, seguros y evidencia en supply chain."
+    },
+    "brief": {
+      "title": "Contenido que acompaña la conversación.",
+      "description": "Cada publicación puede abrir una charla, guía o curso futuro."
+    },
+    "cta": {
+      "eyebrow": "Próximas publicaciones",
+      "title": "¿Tienes un caso o tema que debería convertirse en contenido?",
+      "description": "Podemos transformarlo en artículo, guía o punto de partida para una charla.",
+      "button": "Proponer tema"
+    }
+  },
+  "blogPosts": {
+    "beforeAccident": {
+      "title": "Por qué un siniestro logístico empieza antes del accidente",
+      "category": "Riesgos",
+      "type": "Análisis",
+      "readTime": "6 min",
+      "excerpt": "Señales previas, decisiones operativas y controles clave.",
+      "body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed justo non sem fermentum aliquet. Suspendisse potenti. Duis luctus, lacus at dignissim posuere, lectus nibh consequat arcu, vitae gravida justo lorem sed urna.",
+        "Praesent euismod magna id lectus luctus, sed posuere mauris viverra. Aenean at neque sed libero facilisis finibus. Curabitur tempor, mi vel pretium bibendum, augue erat vulputate nisl, sed commodo orci mauris non justo.",
+        "Aliquam erat volutpat. Nunc accumsan, erat vitae feugiat iaculis, sem turpis consequat ipsum, sed ullamcorper mi risus sed justo. Donec vitae lacus at risus hendrerit luctus."
+      ]
+    },
+    "transportClaimDocuments": {
+      "title": "Documentos clave para analizar un reclamo de transporte",
+      "category": "Seguros",
+      "type": "Guía",
+      "readTime": "8 min",
+      "excerpt": "Evidencias, trazabilidad y registros útiles para evaluar un caso.",
+      "body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum at eros cursus luctus. Sed non velit vitae lorem egestas porttitor. Donec aliquam enim vel neque porttitor, et dictum augue facilisis.",
+        "Morbi a neque et justo pretium fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sed arcu vel justo tincidunt posuere.",
+        "Vivamus ac ligula turpis. Integer consequat, mi in pretium sagittis, justo lorem feugiat augue, sit amet laoreet libero neque in massa."
+      ]
+    },
+    "supplyChainVisibility": {
+      "title": "Cadena de suministros: dónde se pierde visibilidad",
+      "category": "Supply chain",
+      "type": "Checklist",
+      "readTime": "5 min",
+      "excerpt": "Puntos ciegos en almacenes, rutas y transferencia de custodia.",
+      "body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac nisi vel libero vulputate pretium. Integer sed libero at lorem rhoncus pulvinar id non lacus.",
+        "Etiam interdum leo eu magna efficitur, a vulputate velit egestas. Sed a justo tempor, hendrerit lectus nec, faucibus nisl. Integer dignissim lectus in tellus porta tristique.",
+        "Cras finibus, justo vel fermentum interdum, orci neque sagittis est, id viverra sapien magna a augue. Phasellus luctus sapien ut orci feugiat, sed gravida est convallis."
+      ]
+    }
+  },
+  "article": {
+    "placeholderTitle": "Lorem ipsum dolor sit amet",
+    "placeholderParagraph1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae augue sapien. Sed imperdiet, sem non sagittis eleifend, libero augue vulputate risus, vitae viverra neque mi vitae lectus.",
+    "placeholderParagraph2": "Maecenas blandit dui ut odio vulputate, quis porta lectus viverra. Fusce nec tincidunt est. Vestibulum vitae fermentum ipsum, id viverra tortor."
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Contacto",
+      "title": "Conversemos sobre cursos, charlas o alianzas.",
+      "description": "Café Siniestro puede adaptarse a eventos corporativos, sesiones abiertas, webinars y contenidos especializados."
+    },
+    "panelTitle": "¿Qué necesitas organizar?",
     "options": {
-      "option1": "Opción 1",
-      "option2": "Opción 2",
-      "option3": "Opción 3",
-      "option4": "Opción 4"
+      "talk": "Una charla o webinar",
+      "course": "Un curso para tu equipo",
+      "content": "Una colaboración de contenido"
+    },
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo",
+      "emailPlaceholder": "correo@empresa.com",
+      "interest": "Interés",
+      "selectPlaceholder": "Selecciona una opción",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos brevemente qué buscas",
+      "submit": "Enviar consulta",
+      "options": {
+        "course": "Curso",
+        "webinar": "Webinar",
+        "event": "Evento presencial",
+        "content": "Publicación o alianza"
+      }
+    }
+  },
+  "pages": {
+    "notFound": {
+      "title": "404 - Página no encontrada",
+      "description": "La ruta que buscas no está disponible.",
+      "backHome": "Volver al inicio"
     }
   },
   "carousel": {
@@ -54,199 +305,5 @@
     "next": "Mostrar siguiente",
     "controls": "Control del carrusel",
     "goToView": "Ir a la vista"
-  },
-  "home": {
-    "hero": {
-      "title": "Construye landing pages premium más rápido con un starter reutilizable",
-      "description": "Esta app white-label incluye enrutamiento, tokens de diseño, bloques responsive y componentes reutilizables listos para cualquier nicho de negocio.",
-      "cta": "Iniciar Nuevo Landing",
-      "imageAlt": "Hero del starter"
-    },
-    "hero2": {
-      "kicker": "Hero Alternativo Reutilizable",
-      "title": "Hero visual con variantes por prop",
-      "description": "Usa variant=\"a\" o variant=\"b\" para cambiar el estilo sin duplicar componentes, manteniendo una base lista para white-label.",
-      "cta": "Agendar una consulta",
-      "imageAlt": "Persona sonriendo en bloque hero alternativo",
-      "badgeValue": "15+",
-      "badgeLabel": "Años de experiencia"
-    },
-    "aboutTeaser": {
-      "kicker": "Bloque Reutilizable",
-      "title": "About teaser para presentar propuesta de valor",
-      "description": "Este bloque resume fortalezas del negocio y permite llevar al usuario a una página de detalle.",
-      "listAria": "Fortalezas del bloque about teaser",
-      "point1": "Compatible con enfoque white-label y multiindustria",
-      "point2": "Texto e imagen desacoplados para adaptación rápida",
-      "point3": "CTA configurable para redirigir al flujo que necesites",
-      "cta": "Ver más componentes",
-      "imageAlt": "Equipo atendiendo a un cliente satisfecho"
-    },
-    "servicesBlock2": {
-      "title": "Servicios Destacados (Bloque Reutilizable)",
-      "description": "Grid de servicios enriquecido con puntos clave y chips de soporte.",
-      "intro": "Úsalo cuando necesites explicar servicios de forma clara y escalable, con estructura lista para catálogos más largos.",
-      "supportTitle": "Servicios complementarios",
-      "cta": "Hablar por WhatsApp",
-      "allServicesCta": "Ver todos los componentes"
-    },
-    "ctaStrip": {
-      "kicker": "Bloque CTA",
-      "title": "Franja de llamada a la acción para cierre de conversión",
-      "description": "Ideal para empujar agenda rápida por WhatsApp o llamada telefónica sin agregar fricción.",
-      "primaryCta": "Reservar por WhatsApp",
-      "secondaryCta": "Llamar ahora"
-    },
-    "socialLinksBlock": {
-      "title": "Social Links (Componente Reutilizable)",
-      "description": "Botonera de redes lista para usar en footer, contacto o secciones promocionales."
-    },
-    "servicesBlock": {
-      "title": "Carrusel Reutilizable de Tarjetas de Servicio",
-      "description": "Carrusel con navegación por clic y arrastre, con autoplay en mobile, reutilizable para páginas landing."
-    },
-    "testimonialsBlock": {
-      "title": "Sección de Testimonios",
-      "description": "Grid simple y reutilizable para prueba social."
-    }
-  },
-  "contactBlock": {
-    "title": "Bloque de Contacto",
-    "description": "Sección de contacto reutilizable con formulario y mapa.",
-    "fields": {
-      "fullName": "Nombre Completo*",
-      "phone": "Teléfono*",
-      "email": "Correo Electrónico*",
-      "interestedIn": "Interesado en",
-      "message": "Mensaje"
-    },
-    "options": {
-      "option1": "Opción 1",
-      "option2": "Opción 2",
-      "option3": "Opción 3"
-    },
-    "sending": "Enviando...",
-    "feedback": {
-      "success": "Mensaje enviado correctamente. Te contactaremos pronto.",
-      "error": "No se pudo enviar el mensaje. Inténtalo de nuevo en unos minutos.",
-      "configError": "Faltan variables de entorno de EmailJS."
-    },
-    "submit": "Enviar",
-    "mapTitle": "Mapa demo"
-  },
-  "pages": {
-    "components": {
-      "title": "Vitrina de Componentes",
-      "description": "Primitivos y compuestos reutilizables.",
-      "buttonPrimary": "Botón Primario",
-      "buttonSecondary": "Botón Secundario",
-      "buttonOutline": "Botón Outline"
-    },
-    "notFound": {
-      "title": "404 - Página No Encontrada",
-      "description": "Esta ruta no está disponible en el starter kit.",
-      "backHome": "Volver al Inicio"
-    }
-  },
-  "footer": {
-    "title": "Kit Inicial de Landing",
-    "description": "Base reutilizable con React + Tailwind + Router para entregar proyectos de clientes más rápido.",
-    "highlights": {
-      "cloneBuild": "Listo para flujo clonar-y-construir",
-      "tokenBased": "Tematización basada en tokens",
-      "responsive": "Responsive por defecto"
-    },
-    "rights": "© 2026 Kit Inicial de Landing. Construido para flujos freelance reutilizables."
-  },
-  "catalog": {
-    "serviceShowcase": {
-      "generalConsultation": {
-        "title": "Consulta General",
-        "description": "Evaluación integral para identificar el estado actual y necesidades prioritarias.",
-        "point1": "Chequeo clínico inicial",
-        "point2": "Orientación de tratamiento",
-        "point3": "Plan de seguimiento recomendado"
-      },
-      "cardiologyConsultation": {
-        "title": "Consulta de Cardiología",
-        "description": "Bloque de servicio especializado para casos que requieren monitoreo cardíaco.",
-        "point1": "Evaluación cardiovascular completa",
-        "point2": "Detección temprana de hallazgos",
-        "point3": "Recomendaciones de manejo",
-        "point4": "Control periódico según riesgo"
-      },
-      "traumatologyConsultation": {
-        "title": "Consulta de Traumatología",
-        "description": "Atención para molestias de movilidad y recuperación funcional.",
-        "point1": "Diagnóstico funcional",
-        "point2": "Plan de rehabilitación",
-        "point3": "Seguimiento de evolución"
-      },
-      "dermatologyConsultation": {
-        "title": "Consulta de Dermatología",
-        "description": "Abordaje para piel y pelaje con enfoque en causa raíz.",
-        "point1": "Evaluación dermatológica",
-        "point2": "Protocolo de cuidado",
-        "point3": "Control de recurrencias"
-      },
-      "ophthalmologyConsultation": {
-        "title": "Consulta de Oftalmología",
-        "description": "Revisión ocular para detección y prevención de complicaciones visuales.",
-        "point1": "Examen ocular base",
-        "point2": "Manejo de síntomas",
-        "point3": "Control preventivo"
-      },
-      "abdominalUltrasound": {
-        "title": "Ecografía Abdominal",
-        "description": "Estudio complementario para apoyar diagnóstico clínico y decisiones terapéuticas.",
-        "point1": "Evaluación no invasiva",
-        "point2": "Apoyo diagnóstico",
-        "point3": "Reporte para seguimiento"
-      }
-    },
-    "serviceSupport": {
-      "microchipId": "Identificación con microchip",
-      "pharmacy": "Farmacia especializada",
-      "petShop": "Pet shop",
-      "homeGuidance": "Orientación para cuidados en casa",
-      "postoperativeFollowup": "Seguimiento posoperatorio",
-      "chronicDiseaseControl": "Control de condiciones crónicas"
-    },
-    "services": {
-      "landingArchitecture": {
-        "title": "Arquitectura de Landing",
-        "description": "Secciones preconstruidas para lanzar sitios de una o múltiples páginas con acabado profesional."
-      },
-      "designTokens": {
-        "title": "Tokens de Diseño",
-        "description": "Colores y espaciado centralizados para rebranding en minutos."
-      },
-      "reusableComponents": {
-        "title": "Componentes Reutilizables",
-        "description": "Botones, tarjetas, headers y bloques de contenido construidos para velocidad."
-      },
-      "responsiveFirst": {
-        "title": "Responsive Primero",
-        "description": "Layouts ajustados para móvil, tablet y desktop desde el día uno."
-      },
-      "showcasePage": {
-        "title": "Página de Showcase",
-        "description": "Una vista /components para auditar UI reutilizable antes de la entrega."
-      }
-    },
-    "testimonials": {
-      "projectOwner": {
-        "name": "Dueño del Proyecto",
-        "text": "El starter kit redujo tiempos de setup y nos dio una estructura limpia para futuras páginas de clientes."
-      },
-      "frontendDeveloper": {
-        "name": "Desarrollador Frontend",
-        "text": "Los bloques reutilizables y tokens hicieron que los cambios de branding fueran muy rápidos."
-      },
-      "freelanceTeam": {
-        "name": "Equipo Freelance",
-        "text": "Ahora clonamos un solo repositorio y entregamos landings personalizados en una fracción del tiempo."
-      }
-    }
   }
 }

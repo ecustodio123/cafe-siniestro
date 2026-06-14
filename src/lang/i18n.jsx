@@ -4,7 +4,7 @@ import en from "./en.json";
 import es from "./es.json";
 
 const STORAGE_KEY = "site_language";
-const DEFAULT_LANGUAGE = "en";
+const DEFAULT_LANGUAGE = "es";
 
 const dictionaries = {
   en,
@@ -34,10 +34,14 @@ export function LanguageProvider({ children }) {
   }, [language]);
 
   const value = useMemo(() => {
-    const t = (path) => {
+    const t = (path, options = {}) => {
       const activeValue = getValueByPath(dictionaries[language], path);
       const fallbackValue = getValueByPath(dictionaries[DEFAULT_LANGUAGE], path);
       const result = activeValue ?? fallbackValue;
+
+      if (options.returnObjects) {
+        return result ?? [];
+      }
 
       return typeof result === "string" ? result : path;
     };
@@ -51,7 +55,13 @@ export function LanguageProvider({ children }) {
 
   useEffect(() => {
     document.title = value.t("meta.title");
-  }, [value]);
+    document.documentElement.lang = language;
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", value.t("meta.description"));
+    }
+  }, [language, value]);
 
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
 }
