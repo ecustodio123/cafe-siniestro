@@ -104,14 +104,14 @@ Este proyecto está pensado como **white app / starter kit**:
 
 ### Cambiar remotos sin tocar el repo base
 
-Si ya clonaste `landing-starter-kit` y quieres publicar en un repo nuevo:
+Si ya clonaste `landing-starter-kit` y quieres publicar este proyecto en `cafe-siniestro`:
 
 ```bash
 # 1) Renombrar remoto actual (base) para conservar referencia
 git remote rename origin upstream
 
 # 2) Agregar el repo nuevo como origin
-git remote add origin https://github.com/<tu-usuario>/<nuevo-repo>.git
+git remote add origin https://github.com/ecustodio123/cafe-siniestro.git
 
 # 3) Verificar
 git remote -v
@@ -119,14 +119,14 @@ git remote -v
 
 Debes ver:
 
-- `origin` -> repo nuevo (destino del proyecto actual)
+- `origin` -> `https://github.com/ecustodio123/cafe-siniestro.git` (destino del proyecto actual)
 - `upstream` -> `landing-starter-kit` (base)
 
 ### Primer push al repo nuevo
 
 ```bash
 git add .
-git commit -m "Initial <nombre-del-proyecto> landing"
+git commit -m "Initial cafe siniestro landing"
 git push -u origin main
 ```
 
