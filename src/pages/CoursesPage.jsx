@@ -1,3 +1,4 @@
+import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
 import EastOutlinedIcon from "@mui/icons-material/EastOutlined";
 import { Link } from "react-router-dom";
@@ -28,7 +29,7 @@ function CoursesPage() {
           </div>
 
           <aside className="course-feature">
-            <span className="pill">{t(`courses.${featuredCourse.id}.tag`)}</span>
+            <span className="pill pill-white">{t(`courses.${featuredCourse.id}.tag`)}</span>
             <h2>{t(`courses.${featuredCourse.id}.title`)}</h2>
             <p>{t(`courses.${featuredCourse.id}.outcome`)}</p>
             <dl>
@@ -61,6 +62,19 @@ function CoursesPage() {
             </Link>
           </div>
           <div className="course-catalog">
+            <article className="speaker-card">
+              <img src="/images/carlos-caro-expositor-card.jpeg" alt={t("coursesPage.speaker.cardAlt")} />
+              <div className="speaker-card__content">
+                <span className="pill">{t("coursesPage.speaker.badge")}</span>
+                <h3>{t("coursesPage.speaker.name")}</h3>
+                <p className="speaker-card__role">{t("coursesPage.speaker.role")}</p>
+                <p>{t("coursesPage.speaker.description")}</p>
+                <Link className="course-program-card__link" to="/contacto">
+                  <AccountCircleOutlinedIcon />
+                  {t("coursesPage.speaker.cta")}
+                </Link>
+              </div>
+            </article>
             {courses.map((course, index) => (
               <article className="course-program-card" key={course.id}>
                 <div className="course-program-card__top">

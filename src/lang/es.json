@@ -53,7 +53,7 @@
       "topic3": "Supply chain risk",
       "proof": "Para profesionales de seguros, logística y gestión de riesgos",
       "visualAria": "Resumen visual de Café Siniestro",
-      "visualTitle": "Riesgo, seguros y cadena de suministros sin rodeos.",
+      "visualTitle": "Riesgos, seguros y cadena de suministros sin rodeos.",
       "signalRisk": "Gestión de riesgos",
       "signalSupply": "Cadena de suministros",
       "signalTalks": "Charlas con criterio",
@@ -65,6 +65,12 @@
       "eyebrow": "Método Café Siniestro",
       "title": "Del incidente al criterio profesional.",
       "description": "Miramos casos reales para pensar mejor el siguiente riesgo."
+    },
+    "origin": {
+      "eyebrow": "Origen",
+      "title": "¿Por qué Café Siniestro?",
+      "paragraph1": "Aquellos que conocieron a mi papá recuerdan que todos los días, a las 10 a.m., detenía todo para tomar su café de la mañana. Ese era el momento propicio para compartir con amigos y colegas parte de su experiencia sobre seguros y siniestros. Así, entre cafés, iba enseñando sobre este mercado.",
+      "paragraph2": "Cuando me tocó empezar a dictar charlas sobre siniestros, un buen amigo me dijo: “como lo hacía tu papá”. En ese momento surgió esta iniciativa, recordándolo y honrándolo: Café Siniestro."
     },
     "about": {
       "eyebrow": "Quiénes somos",
@@ -147,6 +153,18 @@
       "mode": "Modalidad",
       "level": "Nivel"
     },
+    "speaker": {
+      "heroAlt": "Carlos Caro exponiendo en un evento profesional",
+      "heroBadge": "Exposición en vivo",
+      "heroTitle": "Sesiones guiadas por experiencia de campo.",
+      "heroDescription": "Cursos y charlas con enfoque práctico para equipos que necesitan criterio aplicable.",
+      "cardAlt": "Carlos Caro participando como expositor",
+      "badge": "Expositor principal",
+      "name": "Carlos Caro",
+      "role": "Gerente General",
+      "description": "Especialista en gestión de riesgos, seguros y siniestros de cadena de suministros. Sus sesiones conectan casos reales, documentación y toma de decisiones.",
+      "cta": "Coordinar una charla"
+    },
     "agenda": {
       "eyebrow": "Agenda inicial",
       "title": "Temas listos para cursos, webinars o exposiciones.",
@@ -200,6 +218,20 @@
         "evidence": "Evidencia",
         "damage": "Daños",
         "assessmentCriteria": "Criterio pericial"
+      }
+    },
+    "projectCargoClaims": {
+      "title": "Avería gruesa y Project Cargo",
+      "tag": "Clase técnica",
+      "duration": "2 sesiones",
+      "mode": "Online o presencial",
+      "level": "Intermedio",
+      "outcome": "Comprender riesgos críticos en cargas especiales",
+      "description": "Sesión aplicada sobre transporte marítimo, cargas de proyecto, responsabilidades y documentación clave.",
+      "topics": {
+        "projectCargo": "Project Cargo",
+        "maritime": "Transporte marítimo",
+        "heavyLoss": "Avería gruesa"
       }
     }
   },

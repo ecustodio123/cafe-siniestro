@@ -24,6 +24,10 @@ export const courses = [
     id: "assessmentEvidenceCriteria",
     topics: ["evidence", "damage", "assessmentCriteria"],
   },
+  {
+    id: "projectCargoClaims",
+    topics: ["projectCargo", "maritime", "heavyLoss"],
+  },
 ];
 
 export const blogPosts = [

@@ -66,6 +66,12 @@
       "title": "From incident to professional judgment.",
       "description": "We use real cases to think better about the next risk."
     },
+    "origin": {
+      "eyebrow": "Origin",
+      "title": "Why Café Siniestro?",
+      "paragraph1": "Those who knew my father remember that every day at 10 a.m. he would stop everything to have his morning coffee. That was the right moment to share with friends and colleagues part of his experience in insurance and claims. Coffee after coffee, he taught people about this market.",
+      "paragraph2": "When I started giving talks about claims, a good friend told me: “just like your father did”. That was the moment this initiative was born, remembering and honoring him: Café Siniestro."
+    },
     "about": {
       "eyebrow": "Who we are",
       "title": "A specialized space to learn from real risks.",
@@ -147,6 +153,18 @@
       "mode": "Format",
       "level": "Level"
     },
+    "speaker": {
+      "heroAlt": "Carlos Caro speaking at a professional event",
+      "heroBadge": "Live talk",
+      "heroTitle": "Sessions guided by field experience.",
+      "heroDescription": "Courses and talks with a practical focus for teams that need applicable judgment.",
+      "cardAlt": "Carlos Caro participating as a speaker",
+      "badge": "Lead speaker",
+      "name": "Carlos Caro",
+      "role": "General Manager",
+      "description": "Specialist in risk management, insurance and supply chain claims. His sessions connect real cases, documentation and decision-making.",
+      "cta": "Schedule a talk"
+    },
     "agenda": {
       "eyebrow": "Initial agenda",
       "title": "Topics ready for courses, webinars or talks.",
@@ -200,6 +218,20 @@
         "evidence": "Evidence",
         "damage": "Damage",
         "assessmentCriteria": "Assessment criteria"
+      }
+    },
+    "projectCargoClaims": {
+      "title": "General average and Project Cargo",
+      "tag": "Technical class",
+      "duration": "2 sessions",
+      "mode": "Online or in person",
+      "level": "Intermediate",
+      "outcome": "Understand critical risks in special cargo",
+      "description": "An applied session about maritime transport, project cargo, responsibilities and key documentation.",
+      "topics": {
+        "projectCargo": "Project Cargo",
+        "maritime": "Maritime transport",
+        "heavyLoss": "General average"
       }
     }
   },

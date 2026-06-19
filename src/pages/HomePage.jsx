@@ -107,6 +107,19 @@ function HomePage() {
         </Container>
       </section>
 
+      <section className="section origin-section">
+        <Container className="origin-layout">
+          <div>
+            <p className="eyebrow">{t("home.origin.eyebrow")}</p>
+            <h2>{t("home.origin.title")}</h2>
+          </div>
+          <article className="origin-story">
+            <p>{t("home.origin.paragraph1")}</p>
+            <p>{t("home.origin.paragraph2")}</p>
+          </article>
+        </Container>
+      </section>
+
       <section className="section home-about-section">
         <Container>
           <div className="split-heading">

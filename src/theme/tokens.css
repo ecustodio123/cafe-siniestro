@@ -4,6 +4,8 @@
   --color-primary-800: #101915;
   --color-secondary: #2f6f68;
   --color-accent: #a86635;
+  --color-signal: #ff1f1f;
+  --color-signal-700: #cf1717;
 
   --color-text-primary: #202520;
   --color-text-muted: #65706a;
@@ -14,6 +16,7 @@
   --color-border-soft: #e8ded1;
 
   --color-primary-rgb: 36, 52, 47;
+  --color-signal-rgb: 255, 31, 31;
   --radius-sm: 0.45rem;
   --radius-md: 0.6rem;
   --radius-lg: 0.8rem;
