@@ -1892,9 +1892,17 @@
     width: 100%;
   }
 
+  .speaker-hero__bar {
+    border-top: 0;
+    background: transparent;
+    backdrop-filter: none;
+  }
+
   .speaker-hero__tabs {
     min-width: 0;
     overflow-x: auto;
+    border-top: 1px solid var(--color-border-soft);
+    background: rgba(255, 255, 255, 0.96);
   }
 
   .speaker-hero__tabs a {
@@ -1953,9 +1961,18 @@
     grid-template-columns: 1fr;
   }
 
-  .about-panel__media,
+  .about-panel--what {
+    min-height: 0;
+    background: transparent;
+  }
+
+  .about-panel__media {
+    min-height: 300px;
+    border-radius: var(--radius-md);
+  }
+
   .about-panel__media img {
-    min-height: 420px;
+    min-height: 300px;
   }
 
   .about-panel__copy,
