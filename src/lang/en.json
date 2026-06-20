@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Café Siniestro | Risk, insurance and supply chain",
-    "description": "Café Siniestro: courses, talks and publications about risk management, insurance and supply chain claims."
+    "description": "Café Siniestro: talks and publications about risk management, insurance and supply chain claims."
   },
   "language": {
     "switchLabel": "Language",
@@ -43,10 +43,20 @@
   "home": {
     "hero": {
       "eyebrow": "Risk management, insurance and claims",
-      "title": "Where every claim becomes a lesson.",
-      "description": "Courses, talks and publications to understand risk, insurance and supply chain with technical judgment.",
-      "primaryCta": "Explore agenda",
+      "title": "Hi, I’m Carlos Miguel.",
+      "description": "I share practical experience about insurance, claims and supply chain risk to turn complex cases into professional judgment.",
+      "primaryCta": "Hire me for a keynote",
       "secondaryCta": "Read publications",
+      "socialAria": "Carlos Miguel social media",
+      "linkedin": "Carlos Miguel on LinkedIn",
+      "youtube": "Carlos Miguel on YouTube",
+      "instagram": "Carlos Miguel on Instagram",
+      "x": "Carlos Miguel on X",
+      "tabsAria": "Main sections",
+      "tabAbout": "About Carlos",
+      "tabMethod": "Method",
+      "tabCourses": "Courses",
+      "tabBlog": "Blog",
       "topicsAria": "Main topics",
       "topic1": "Logistics claims",
       "topic2": "Insurance assessment",
@@ -58,13 +68,44 @@
       "signalSupply": "Supply chain",
       "signalTalks": "Practical talks",
       "eventEyebrow": "Living agenda",
-      "eventText": "Cases, webinars and courses for professionals who need applicable judgment."
+      "eventText": "Cases, talks and publications for professionals who need applicable judgment."
     },
     "statsAria": "Café Siniestro summary",
     "method": {
       "eyebrow": "Café Siniestro Method",
       "title": "From incident to professional judgment.",
       "description": "We use real cases to think better about the next risk."
+    },
+    "aboutCarlos": {
+      "eyebrow": "About Carlos",
+      "title": "Technical experience turned into clear conversation.",
+      "what": {
+        "eyebrow": "What we do",
+        "title": "We translate claims, insurance and supply chain into decisions people can understand.",
+        "description": "Café Siniestro supports professionals and teams that need to understand real risks, read evidence, organize responsibilities and discuss complex cases without losing clarity.",
+        "imageAlt": "Café Siniestro meeting overlooking a port operation"
+      },
+      "speaker": {
+        "eyebrow": "Speaker",
+        "title": "Talks for teams that need judgment, not just theory.",
+        "description": "Carlos Miguel brings insurance, claims and supply chain cases to keynotes, webinars and corporate spaces. His approach combines technical experience, direct language and applicable examples so audiences leave with better questions and better decisions.",
+        "cta": "Invite Carlos Miguel",
+        "topic1": "Keynotes",
+        "topic2": "Corporate talks",
+        "topic3": "Technical webinars",
+        "option2": {
+          "eyebrow": "Speaker · Formats",
+          "imageAlt": "Carlos Miguel during a talk",
+          "title": "Talks about claims that connect technical experience with real decisions.",
+          "description": "Carlos Miguel turns insurance, claims and supply chain cases into clear conversations for teams that need to understand what happened, which evidence matters and how to make better risk decisions.",
+          "format1Title": "Keynote",
+          "format1Text": "For opening or closing events with a clear view on risk and claims.",
+          "format2Title": "Corporate talk",
+          "format2Text": "For teams that need to align criteria around complex cases.",
+          "format3Title": "Technical webinar",
+          "format3Text": "For professional communities looking for practical and actionable content."
+        }
+      }
     },
     "origin": {
       "eyebrow": "Origin",
@@ -92,7 +133,7 @@
     "cta": {
       "eyebrow": "Next step",
       "title": "Let's build a knowledge agenda for your team or community.",
-      "description": "Talks, courses or events to turn risk into clear decisions."
+      "description": "Talks, keynotes and publications to turn risk into clear decisions."
     }
   },
   "stats": {
@@ -106,7 +147,7 @@
     },
     "agenda": {
       "value": "Agenda",
-      "label": "Courses and talks"
+      "label": "Talks and publications"
     }
   },
   "focusAreas": {
@@ -154,13 +195,13 @@
       "level": "Level"
     },
     "speaker": {
-      "heroAlt": "Carlos Caro speaking at a professional event",
+      "heroAlt": "Carlos Miguel speaking at a professional event",
       "heroBadge": "Live talk",
       "heroTitle": "Sessions guided by field experience.",
       "heroDescription": "Courses and talks with a practical focus for teams that need applicable judgment.",
-      "cardAlt": "Carlos Caro participating as a speaker",
+      "cardAlt": "Carlos Miguel participating as a speaker",
       "badge": "Lead speaker",
-      "name": "Carlos Caro",
+      "name": "Carlos Miguel",
       "role": "General Manager",
       "description": "Specialist in risk management, insurance and supply chain claims. His sessions connect real cases, documentation and decision-making.",
       "cta": "Schedule a talk"
@@ -298,13 +339,13 @@
   "contactPage": {
     "hero": {
       "eyebrow": "Contact",
-      "title": "Let's talk about courses, talks or partnerships.",
+      "title": "Let's talk about talks, keynotes or partnerships.",
       "description": "Café Siniestro can adapt to corporate events, open sessions, webinars and specialized content."
     },
     "panelTitle": "What do you need to organize?",
     "options": {
       "talk": "A talk or webinar",
-      "course": "A course for your team",
+      "course": "A specialized session for your team",
       "content": "A content collaboration"
     },
     "form": {
@@ -318,7 +359,7 @@
       "messagePlaceholder": "Briefly tell us what you need",
       "submit": "Send inquiry",
       "options": {
-        "course": "Course",
+        "course": "Specialized session",
         "webinar": "Webinar",
         "event": "In-person event",
         "content": "Publication or partnership"

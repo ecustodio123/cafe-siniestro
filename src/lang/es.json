@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Café Siniestro | Riesgos, seguros y supply chain",
-    "description": "Café Siniestro: cursos, charlas y publicaciones sobre gestión de riesgos, seguros y siniestros de cadena de suministros."
+    "description": "Café Siniestro: charlas y publicaciones sobre gestión de riesgos, seguros y siniestros de cadena de suministros."
   },
   "language": {
     "switchLabel": "Idioma",
@@ -43,10 +43,20 @@
   "home": {
     "hero": {
       "eyebrow": "Gestión de riesgos, seguros y siniestros",
-      "title": "Donde cada siniestro se convierte en aprendizaje.",
-      "description": "Cursos, charlas y publicaciones para entender riesgos, seguros y cadena de suministros con criterio técnico.",
-      "primaryCta": "Explorar agenda",
+      "title": "Hola, soy Carlos Miguel.",
+      "description": "Comparto experiencia práctica sobre seguros, siniestros y riesgos en cadena de suministros para convertir casos complejos en criterio profesional.",
+      "primaryCta": "Conversemos",
       "secondaryCta": "Leer publicaciones",
+      "socialAria": "Redes sociales de Carlos Miguel",
+      "linkedin": "LinkedIn de Carlos Miguel",
+      "youtube": "YouTube de Carlos Miguel",
+      "instagram": "Instagram de Carlos Miguel",
+      "x": "X de Carlos Miguel",
+      "tabsAria": "Secciones principales",
+      "tabAbout": "Acerca de Carlos",
+      "tabMethod": "Método",
+      "tabCourses": "Cursos",
+      "tabBlog": "Blog",
       "topicsAria": "Temas principales",
       "topic1": "Siniestros logísticos",
       "topic2": "Peritaje de seguros",
@@ -58,13 +68,44 @@
       "signalSupply": "Cadena de suministros",
       "signalTalks": "Charlas con criterio",
       "eventEyebrow": "Agenda viva",
-      "eventText": "Casos, webinars y cursos para profesionales que necesitan criterio aplicable."
+      "eventText": "Casos, charlas y publicaciones para profesionales que necesitan criterio aplicable."
     },
     "statsAria": "Resumen de Café Siniestro",
     "method": {
       "eyebrow": "Método Café Siniestro",
       "title": "Del incidente al criterio profesional.",
       "description": "Miramos casos reales para pensar mejor el siguiente riesgo."
+    },
+    "aboutCarlos": {
+      "eyebrow": "Acerca de Carlos",
+      "title": "Experiencia técnica convertida en conversación clara.",
+      "what": {
+        "eyebrow": "Qué hacemos",
+        "title": "Donde cada siniestro se convierte en aprendizaje.",
+        "description": "Cursos, charlas y publicaciones para entender riesgos, seguros y cadena de suministros con criterio técnico.",
+        "imageAlt": "Reunión de Café Siniestro frente a una operación portuaria"
+      },
+      "speaker": {
+        "eyebrow": "Speaker",
+        "title": "Charlas para equipos que necesitan criterio, no solo teoría.",
+        "description": "Carlos Miguel lleva casos de seguros, siniestros y cadena de suministros a conferencias, webinars y espacios corporativos. Su enfoque combina experiencia técnica, lenguaje directo y ejemplos aplicables para que la audiencia salga con mejores preguntas y mejores decisiones.",
+        "cta": "¿Qué podemos hacer juntos?",
+        "topic1": "Conferencias magistrales",
+        "topic2": "Charlas corporativas",
+        "topic3": "Webinars técnicos",
+        "option2": {
+          "eyebrow": "Speaker · Formatos",
+          "imageAlt": "Carlos Miguel durante una exposición",
+          "title": "Siniestros que conectan experiencia técnica con decisiones reales.",
+          "description": "Convierto casos de seguros, reclamos y cadena de suministros en conversaciones claras para equipos que necesitan entender qué ocurrió, qué evidencia mirar y cómo tomar mejores decisiones frente al riesgo.",
+          "format1Title": "Conferencia magistral",
+          "format1Text": "Para abrir o cerrar eventos con una mirada clara sobre riesgo y siniestros.",
+          "format2Title": "Charla corporativa",
+          "format2Text": "Para equipos que necesitan alinear criterios frente a casos complejos.",
+          "format3Title": "Webinar técnico",
+          "format3Text": "Para comunidades profesionales que buscan contenido práctico y accionable."
+        }
+      }
     },
     "origin": {
       "eyebrow": "Origen",
@@ -92,7 +133,7 @@
     "cta": {
       "eyebrow": "Próximo paso",
       "title": "Construyamos una agenda de conocimiento para tu equipo o comunidad.",
-      "description": "Charlas, cursos o eventos para traducir riesgo en decisiones claras."
+      "description": "Charlas, exposiciones y publicaciones para traducir riesgo en decisiones claras."
     }
   },
   "stats": {
@@ -106,7 +147,7 @@
     },
     "agenda": {
       "value": "Agenda",
-      "label": "Cursos y charlas"
+      "label": "Charlas y publicaciones"
     }
   },
   "focusAreas": {
@@ -154,13 +195,13 @@
       "level": "Nivel"
     },
     "speaker": {
-      "heroAlt": "Carlos Caro exponiendo en un evento profesional",
+      "heroAlt": "Carlos Miguel exponiendo en un evento profesional",
       "heroBadge": "Exposición en vivo",
       "heroTitle": "Sesiones guiadas por experiencia de campo.",
       "heroDescription": "Cursos y charlas con enfoque práctico para equipos que necesitan criterio aplicable.",
-      "cardAlt": "Carlos Caro participando como expositor",
+      "cardAlt": "Carlos Miguel participando como expositor",
       "badge": "Expositor principal",
-      "name": "Carlos Caro",
+      "name": "Carlos Miguel",
       "role": "Gerente General",
       "description": "Especialista en gestión de riesgos, seguros y siniestros de cadena de suministros. Sus sesiones conectan casos reales, documentación y toma de decisiones.",
       "cta": "Coordinar una charla"
@@ -298,13 +339,13 @@
   "contactPage": {
     "hero": {
       "eyebrow": "Contacto",
-      "title": "Conversemos sobre cursos, charlas o alianzas.",
+      "title": "Conversemos sobre charlas, exposiciones o alianzas.",
       "description": "Café Siniestro puede adaptarse a eventos corporativos, sesiones abiertas, webinars y contenidos especializados."
     },
     "panelTitle": "¿Qué necesitas organizar?",
     "options": {
       "talk": "Una charla o webinar",
-      "course": "Un curso para tu equipo",
+      "course": "Una sesión para tu equipo",
       "content": "Una colaboración de contenido"
     },
     "form": {
@@ -318,7 +359,7 @@
       "messagePlaceholder": "Cuéntanos brevemente qué buscas",
       "submit": "Enviar consulta",
       "options": {
-        "course": "Curso",
+        "course": "Sesión especializada",
         "webinar": "Webinar",
         "event": "Evento presencial",
         "content": "Publicación o alianza"

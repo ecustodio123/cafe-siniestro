@@ -2,6 +2,7 @@ import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import EventAvailableOutlinedIcon from "@mui/icons-material/EventAvailableOutlined";
 import GroupsOutlinedIcon from "@mui/icons-material/GroupsOutlined";
 import Container from "../components/primitives/Container";
+import { SHOW_COURSES } from "../data/cafeContent";
 import { useI18n } from "../lang/i18n";
 
 function ContactPage() {
@@ -26,10 +27,12 @@ function ContactPage() {
                 <EventAvailableOutlinedIcon />
                 <span>{t("contactPage.options.talk")}</span>
               </div>
-              <div>
-                <GroupsOutlinedIcon />
-                <span>{t("contactPage.options.course")}</span>
-              </div>
+              {SHOW_COURSES ? (
+                <div>
+                  <GroupsOutlinedIcon />
+                  <span>{t("contactPage.options.course")}</span>
+                </div>
+              ) : null}
               <div>
                 <EmailOutlinedIcon />
                 <span>{t("contactPage.options.content")}</span>
@@ -52,7 +55,7 @@ function ContactPage() {
                 <option value="" disabled>
                   {t("contactPage.form.selectPlaceholder")}
                 </option>
-                <option>{t("contactPage.form.options.course")}</option>
+                {SHOW_COURSES ? <option>{t("contactPage.form.options.course")}</option> : null}
                 <option>{t("contactPage.form.options.webinar")}</option>
                 <option>{t("contactPage.form.options.event")}</option>
                 <option>{t("contactPage.form.options.content")}</option>

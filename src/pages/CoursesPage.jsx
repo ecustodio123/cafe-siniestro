@@ -63,7 +63,7 @@ function CoursesPage() {
           </div>
           <div className="course-catalog">
             <article className="speaker-card">
-              <img src="/images/carlos-caro-expositor-card.jpeg" alt={t("coursesPage.speaker.cardAlt")} />
+              <img src="/images/carlos-miguel-expositor-card.jpeg" alt={t("coursesPage.speaker.cardAlt")} />
               <div className="speaker-card__content">
                 <span className="pill">{t("coursesPage.speaker.badge")}</span>
                 <h3>{t("coursesPage.speaker.name")}</h3>

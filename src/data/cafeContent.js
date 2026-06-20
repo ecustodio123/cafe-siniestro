@@ -1,9 +1,13 @@
-export const siteNav = [
+export const SHOW_COURSES = false;
+
+const navItems = [
   { key: "home", to: "/" },
   { key: "courses", to: "/cursos" },
   { key: "blog", to: "/blog" },
   { key: "contact", to: "/contacto" },
 ];
+
+export const siteNav = navItems.filter((item) => SHOW_COURSES || item.key !== "courses");
 
 export const stats = ["risk", "cases", "agenda"];
 

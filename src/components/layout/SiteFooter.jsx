@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { siteNav } from "../../data/cafeContent";
+import { SHOW_COURSES, siteNav } from "../../data/cafeContent";
 import { useI18n } from "../../lang/i18n";
 import Container from "../primitives/Container";
 
@@ -21,7 +21,7 @@ function SiteFooter() {
           ))}
         </ul>
         <ul className="footer-links">
-          <li>{t("footer.highlights.courses")}</li>
+          {SHOW_COURSES ? <li>{t("footer.highlights.courses")}</li> : null}
           <li>{t("footer.highlights.publications")}</li>
           <li>{t("footer.highlights.events")}</li>
         </ul>

@@ -210,6 +210,149 @@
   box-shadow: inset 0 -2px 0 var(--color-signal);
 }
 
+.speaker-hero {
+  position: relative;
+  min-height: calc(100vh - 74px);
+  display: grid;
+  align-items: stretch;
+  border-bottom: 1px solid var(--color-border-soft);
+  background: #f6f4ef;
+  overflow: hidden;
+}
+
+.speaker-hero__image {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(248, 245, 239, 0.96) 0%, rgba(248, 245, 239, 0.78) 31%, rgba(248, 245, 239, 0.1) 58%),
+    linear-gradient(0deg, rgba(248, 245, 239, 0.14), rgba(248, 245, 239, 0.14)),
+    url("/images/carlos-miguel-exposicion-hero.jpeg") 68% 46% / cover;
+}
+
+.speaker-hero__content {
+  position: relative;
+  z-index: 1;
+  min-height: calc(100vh - 154px);
+  display: grid;
+  align-items: center;
+  padding: clamp(4rem, 9vw, 7rem) 0 clamp(6rem, 10vw, 8rem);
+}
+
+.speaker-hero__copy {
+  max-width: 560px;
+}
+
+.speaker-hero h1 {
+  margin: 0;
+  color: rgba(var(--color-primary-rgb), 0.78);
+  font-size: clamp(3rem, 6vw, 5.7rem);
+  font-weight: 400;
+  line-height: 1.08;
+}
+
+.speaker-hero p {
+  max-width: 620px;
+  margin: 1.6rem 0 0;
+  color: rgba(32, 37, 32, 0.78);
+  font-size: clamp(1rem, 1.45vw, 1.2rem);
+  line-height: 1.35;
+}
+
+.speaker-hero__social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.7rem;
+}
+
+.speaker-hero__social a {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #090b09;
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+
+.speaker-hero__social a:hover {
+  color: var(--color-signal);
+  transform: translateY(-2px);
+}
+
+.speaker-hero__social svg {
+  font-size: 2.1rem;
+}
+
+.speaker-hero__bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  border-top: 1px solid var(--color-border-soft);
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+}
+
+.speaker-hero__bar-inner {
+  min-height: 76px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.speaker-hero__tabs {
+  display: flex;
+  align-items: stretch;
+  gap: 0.4rem;
+}
+
+.speaker-hero__tabs a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 1rem;
+  color: var(--color-text-primary);
+  font-weight: 650;
+}
+
+.speaker-hero__tabs a:first-child {
+  color: var(--color-signal);
+}
+
+.speaker-hero__tabs a:first-child::after {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 0;
+  height: 3px;
+  background: var(--color-signal);
+}
+
+.speaker-hero__cta {
+  min-width: min(360px, 36vw);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  align-self: stretch;
+  padding: 0 1.5rem;
+  color: #fffaf1;
+  background: linear-gradient(180deg, #2a3335, var(--color-primary-800));
+  font-size: 0.9rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.speaker-hero__cta svg {
+  font-size: 1rem;
+}
+
 .hero {
   padding: clamp(1rem, 2.4vw, 1.55rem) 0 1.35rem;
   background:
@@ -507,12 +650,6 @@
   padding: clamp(3.5rem, 7vw, 5.5rem) 0;
 }
 
-.home-about-section {
-  border-top: 1px solid var(--color-border-soft);
-  border-bottom: 1px solid var(--color-border-soft);
-  background: #fbf8f2;
-}
-
 .section-muted {
   background: var(--color-bg-soft);
 }
@@ -588,32 +725,100 @@
   line-height: 1.6;
 }
 
-.origin-section {
+.about-carlos-section {
+  padding: clamp(4rem, 8vw, 6.5rem) 0;
   border-bottom: 1px solid var(--color-border-soft);
-  background:
-    linear-gradient(180deg, #f8f5ef 0%, #fbf8f2 100%);
+  background: linear-gradient(180deg, #f8f5ef 0%, #fbf8f2 100%);
 }
 
-.origin-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.08fr);
-  gap: clamp(1.5rem, 5vw, 4rem);
-  align-items: start;
+.about-carlos-heading {
+  max-width: 780px;
+  margin-bottom: clamp(1.5rem, 4vw, 3rem);
 }
 
-.origin-layout h2 {
-  max-width: 10ch;
+.about-carlos-heading h2 {
   margin: 0;
   color: var(--color-primary-800);
-  font-size: clamp(2.2rem, 5vw, 4rem);
-  line-height: 0.95;
+  font-size: clamp(2.4rem, 5vw, 4.6rem);
+  font-weight: 400;
+  line-height: 0.98;
+}
+
+.about-panel {
+  position: relative;
+  display: grid;
+  border-top: 1px solid var(--color-border);
+}
+
+.about-panel + .about-panel {
+  margin-top: clamp(1.4rem, 3vw, 2rem);
+}
+
+.about-panel--what {
+  grid-template-columns: minmax(320px, 0.95fr) minmax(0, 1.05fr);
+  min-height: 520px;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.about-panel--origin {
+  grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
+  gap: clamp(1.4rem, 4vw, 3rem);
+  padding: clamp(1.5rem, 4vw, 2.4rem) 0;
+}
+
+.about-panel__media {
+  min-height: 520px;
+  overflow: hidden;
+}
+
+.about-panel__media img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.about-panel__copy {
+  display: grid;
+  align-content: center;
+  gap: 0.9rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.about-panel--origin .about-panel__copy {
+  padding: 0;
+}
+
+.about-panel__number {
+  color: rgba(var(--color-signal-rgb), 0.62);
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 900;
+  line-height: 0.9;
+}
+
+.about-panel h3 {
+  max-width: 760px;
+  margin: 0;
+  color: var(--color-primary-800);
+  font-size: clamp(2rem, 4vw, 3.35rem);
+  font-weight: 400;
+  line-height: 1.02;
+}
+
+.about-panel p:not(.eyebrow),
+.origin-story p {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: clamp(1rem, 1.7vw, 1.12rem);
+  line-height: 1.72;
 }
 
 .origin-story {
   position: relative;
+  padding: clamp(1.2rem, 3vw, 1.8rem);
   border: 1px solid var(--color-border-soft);
   border-radius: var(--radius-lg);
-  padding: clamp(1.25rem, 3vw, 2rem);
   background: rgba(255, 255, 255, 0.72);
   box-shadow: 0 16px 44px rgba(36, 52, 47, 0.08);
 }
@@ -623,19 +828,131 @@
   width: 42px;
   height: 3px;
   display: block;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.1rem;
   background: var(--color-signal);
-}
-
-.origin-story p {
-  margin: 0;
-  color: var(--color-text-muted);
-  font-size: clamp(1rem, 1.7vw, 1.12rem);
-  line-height: 1.82;
 }
 
 .origin-story p + p {
   margin-top: 1rem;
+}
+
+.speaker-options {
+  display: grid;
+  gap: 1rem;
+  margin-top: clamp(1.4rem, 3vw, 2rem);
+}
+
+.speaker-option {
+  position: relative;
+  display: grid;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.speaker-option--formats::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: clamp(1rem, 3vw, 2rem);
+  width: 28px;
+  height: 86px;
+  background: var(--color-signal);
+}
+
+.speaker-option__copy {
+  display: grid;
+  align-content: center;
+  gap: 0.9rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.speaker-option h3 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.35rem);
+  font-weight: 400;
+  line-height: 1.02;
+}
+
+.speaker-option--formats .eyebrow,
+.speaker-option--formats h3 {
+  color: #fffaf1;
+}
+
+.speaker-option--formats p:not(.eyebrow) {
+  max-width: 760px;
+  color: rgba(255, 250, 241, 0.76);
+  line-height: 1.72;
+}
+
+.speaker-option--formats {
+  grid-template-columns: minmax(0, 0.95fr) minmax(280px, 1.05fr);
+  gap: clamp(1.5rem, 5vw, 4rem);
+  color: #fffaf1;
+  background:
+    linear-gradient(135deg, rgba(16, 25, 21, 0.98), rgba(36, 52, 47, 0.96)),
+    radial-gradient(circle at 8% 12%, rgba(var(--color-signal-rgb), 0.18), transparent 28%);
+}
+
+.speaker-format-side {
+  position: relative;
+  display: grid;
+  gap: 1rem;
+  align-content: center;
+  padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+.speaker-format-photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 8.5;
+  min-height: 0;
+  margin: 0;
+  border: 1px solid rgba(255, 250, 241, 0.18);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 24px 56px rgba(0, 0, 0, 0.18);
+}
+
+.speaker-format-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(0deg, rgba(16, 25, 21, 0.26), rgba(16, 25, 21, 0.02)),
+    linear-gradient(90deg, rgba(var(--color-signal-rgb), 0.18), transparent 36%);
+}
+
+.speaker-format-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 64% 42%;
+}
+
+.speaker-format-list {
+  display: grid;
+  gap: 0.75rem;
+  align-content: center;
+}
+
+.speaker-format-list div {
+  display: grid;
+  gap: 0.35rem;
+  border: 1px solid rgba(255, 250, 241, 0.16);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  background: rgba(255, 250, 241, 0.07);
+}
+
+.speaker-format-list strong {
+  color: #fffaf1;
+  font-weight: 850;
+}
+
+.speaker-format-list span {
+  color: rgba(255, 250, 241, 0.7);
+  line-height: 1.55;
 }
 
 .split-heading,
@@ -1538,9 +1855,63 @@
     display: inline-flex;
   }
 
+  .speaker-hero {
+    min-height: auto;
+  }
+
+  .speaker-hero__image {
+    background:
+      linear-gradient(180deg, rgba(248, 245, 239, 0.96) 0%, rgba(248, 245, 239, 0.78) 42%, rgba(248, 245, 239, 0.18) 100%),
+      url("/images/carlos-miguel-exposicion-hero.jpeg") 66% 50% / cover;
+  }
+
+  .speaker-hero__content {
+    min-height: 690px;
+    align-items: start;
+    padding-top: clamp(3rem, 12vw, 5rem);
+    padding-bottom: 8.5rem;
+  }
+
+  .speaker-hero__copy {
+    max-width: 340px;
+  }
+
+  .speaker-hero h1 {
+    font-size: clamp(2.65rem, 13vw, 4rem);
+  }
+
+  .speaker-hero p {
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+
+  .speaker-hero__bar-inner {
+    min-height: 0;
+    display: grid;
+    gap: 0;
+    width: 100%;
+  }
+
+  .speaker-hero__tabs {
+    min-width: 0;
+    overflow-x: auto;
+  }
+
+  .speaker-hero__tabs a {
+    min-height: 58px;
+    white-space: nowrap;
+  }
+
+  .speaker-hero__cta {
+    min-width: 0;
+    min-height: 58px;
+    width: 100%;
+  }
+
   .hero__grid,
   .method-layout,
-  .origin-layout,
+  .about-panel,
+  .speaker-option,
   .split-heading,
   .contact-layout,
   .agenda-layout,
@@ -1569,6 +1940,43 @@
 
   .method-step {
     grid-template-columns: 1fr;
+  }
+
+  .about-carlos-heading h2,
+  .about-panel h3 {
+    max-width: none;
+  }
+
+  .about-panel--what,
+  .about-panel--origin,
+  .speaker-option--formats {
+    grid-template-columns: 1fr;
+  }
+
+  .about-panel__media,
+  .about-panel__media img {
+    min-height: 420px;
+  }
+
+  .about-panel__copy,
+  .about-panel--origin .about-panel__copy {
+    padding: 1.25rem 0;
+  }
+
+  .speaker-option__copy,
+  .speaker-format-side,
+  .speaker-format-list {
+    padding: 1.25rem;
+  }
+
+  .speaker-format-list {
+    padding: 0;
+  }
+
+  .speaker-format-photo {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    min-height: 0;
   }
 
   .hero__visual-main {
