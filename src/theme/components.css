@@ -1811,6 +1811,25 @@
   resize: vertical;
 }
 
+.contact-feedback {
+  margin: 0;
+  border-radius: var(--radius-sm);
+  padding: 0.78rem 0.85rem;
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.contact-feedback.is-success {
+  color: #175034;
+  background: rgba(47, 111, 104, 0.12);
+}
+
+.contact-feedback.is-error {
+  color: var(--color-signal-700);
+  background: rgba(var(--color-signal-rgb), 0.1);
+}
+
 .footer {
   position: relative;
   background: var(--color-primary-800);

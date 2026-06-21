@@ -367,6 +367,12 @@
       "message": "Message",
       "messagePlaceholder": "Briefly tell us what you need",
       "submit": "Send inquiry",
+      "sending": "Sending...",
+      "feedback": {
+        "success": "Thanks. Your message was sent successfully.",
+        "error": "We could not send the message. Please try again in a few minutes.",
+        "configError": "The EmailJS environment variables are not configured yet."
+      },
       "options": {
         "course": "Specialized session",
         "webinar": "Webinar",

@@ -447,6 +447,12 @@
       "message": "Mensaje",
       "messagePlaceholder": "Cuéntanos brevemente qué buscas",
       "submit": "Enviar consulta",
+      "sending": "Enviando...",
+      "feedback": {
+        "success": "Gracias. Tu mensaje fue enviado correctamente.",
+        "error": "No pudimos enviar el mensaje. Inténtalo nuevamente en unos minutos.",
+        "configError": "El formulario aún no tiene configuradas las variables de EmailJS."
+      },
       "options": {
         "course": "Sesión especializada",
         "webinar": "Webinar",

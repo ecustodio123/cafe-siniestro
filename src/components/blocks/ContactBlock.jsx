@@ -54,7 +54,7 @@ function ContactBlock() {
                 style={{ marginTop: "0.7rem" }}
                 required
               />
-              <select className="select" name="specialty" style={{ marginTop: "0.7rem" }} defaultValue="" required>
+              <select className="select" name="interest" style={{ marginTop: "0.7rem" }} defaultValue="" required>
                 <option value="" disabled>
                   {t("contactBlock.fields.interestedIn")}
                 </option>
