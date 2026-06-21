@@ -35,7 +35,7 @@ export const courses = [
 ];
 
 export const blogPosts = [
-  { id: "beforeAccident", slug: "siniestro-logistico-antes-del-accidente" },
-  { id: "transportClaimDocuments", slug: "documentos-clave-reclamo-transporte" },
-  { id: "supplyChainVisibility", slug: "cadena-suministros-perdida-visibilidad" },
+  { id: "suezCanalBlockage", slug: "bloqueo-canal-suez-ever-given" },
+  { id: "kfcChickenEffect", slug: "efecto-pollo-kfc-colapso-logistico" },
+  { id: "takataAirbagCrisis", slug: "crisis-bolsas-aire-takata" },
 ];

@@ -46,7 +46,7 @@ function BlogPage() {
 
           <div className="blog-side-stack">
             {secondaryPosts.map((post) => (
-              <article className="post-card post-card--compact" key={post.title}>
+              <article className="post-card post-card--compact" key={post.id}>
                 <div className="post-card__meta">
                   <span>{t(`blogPosts.${post.id}.category`)}</span>
                   <span>{t(`blogPosts.${post.id}.readTime`)}</span>

@@ -11,6 +11,23 @@ import {
 } from "../data/cafeContent";
 import { useI18n } from "../lang/i18n";
 
+function EmphasizedCafeTitle({ title }) {
+  const brand = "Café Siniestro";
+  const [before, after] = title.split(brand);
+
+  if (after === undefined) {
+    return title;
+  }
+
+  return (
+    <>
+      {before}
+      <strong>{brand}</strong>
+      {after}
+    </>
+  );
+}
+
 function HomePage() {
   const { t } = useI18n();
 
@@ -68,27 +85,29 @@ function HomePage() {
             <h2>{t("home.aboutCarlos.title")}</h2>
           </div>
 
+          <article className="about-panel about-panel--origin">
+            <div className="about-panel__copy">
+              <span className="about-panel__number">01</span>
+              <p className="eyebrow">{t("home.origin.eyebrow")}</p>
+              <h3>
+                <EmphasizedCafeTitle title={t("home.origin.title")} />
+              </h3>
+            </div>
+            <div className="origin-story">
+              <p>{t("home.origin.paragraph1")}</p>
+              <p>{t("home.origin.paragraph2")}</p>
+            </div>
+          </article>
+
           <article className="about-panel about-panel--what">
             <div className="about-panel__media">
               <img src="/images/cafe-siniestro-consultoria-cafe.png" alt={t("home.aboutCarlos.what.imageAlt")} />
             </div>
             <div className="about-panel__copy">
-              <span className="about-panel__number">01</span>
+              <span className="about-panel__number">02</span>
               <p className="eyebrow">{t("home.aboutCarlos.what.eyebrow")}</p>
               <h3>{t("home.aboutCarlos.what.title")}</h3>
               <p>{t("home.aboutCarlos.what.description")}</p>
-            </div>
-          </article>
-
-          <article className="about-panel about-panel--origin">
-            <div className="about-panel__copy">
-              <span className="about-panel__number">02</span>
-              <p className="eyebrow">{t("home.origin.eyebrow")}</p>
-              <h3>{t("home.origin.title")}</h3>
-            </div>
-            <div className="origin-story">
-              <p>{t("home.origin.paragraph1")}</p>
-              <p>{t("home.origin.paragraph2")}</p>
             </div>
           </article>
 
@@ -106,7 +125,7 @@ function HomePage() {
               </div>
               <div className="speaker-format-side">
                 <figure className="speaker-format-photo">
-                  <img src="/images/carlos-miguel-exposicion-hero.jpeg" alt={t("home.aboutCarlos.speaker.option2.imageAlt")} />
+                  <img src="/images/carlos_miguel_speaker.png" alt={t("home.aboutCarlos.speaker.option2.imageAlt")} />
                 </figure>
                 <div className="speaker-format-list">
                   <div>

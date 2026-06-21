@@ -294,40 +294,49 @@
     }
   },
   "blogPosts": {
-    "beforeAccident": {
-      "title": "Why a logistics claim starts before the accident",
-      "category": "Risk",
-      "type": "Analysis",
-      "readTime": "6 min",
-      "excerpt": "Early signals, operational decisions and key controls.",
-      "body": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed justo non sem fermentum aliquet. Suspendisse potenti. Duis luctus, lacus at dignissim posuere, lectus nibh consequat arcu, vitae gravida justo lorem sed urna.",
-        "Praesent euismod magna id lectus luctus, sed posuere mauris viverra. Aenean at neque sed libero facilisis finibus. Curabitur tempor, mi vel pretium bibendum, augue erat vulputate nisl, sed commodo orci mauris non justo.",
-        "Aliquam erat volutpat. Nunc accumsan, erat vitae feugiat iaculis, sem turpis consequat ipsum, sed ullamcorper mi risus sed justo. Donec vitae lacus at risus hendrerit luctus."
-      ]
-    },
-    "transportClaimDocuments": {
-      "title": "Key documents to analyze a transport claim",
-      "category": "Insurance",
-      "type": "Guide",
-      "readTime": "8 min",
-      "excerpt": "Evidence, traceability and useful records to evaluate a case.",
-      "body": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum at eros cursus luctus. Sed non velit vitae lorem egestas porttitor. Donec aliquam enim vel neque porttitor, et dictum augue facilisis.",
-        "Morbi a neque et justo pretium fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sed arcu vel justo tincidunt posuere.",
-        "Vivamus ac ligula turpis. Integer consequat, mi in pretium sagittis, justo lorem feugiat augue, sit amet laoreet libero neque in massa."
-      ]
-    },
-    "supplyChainVisibility": {
-      "title": "Supply chain: where visibility gets lost",
+    "suezCanalBlockage": {
+      "title": "The blockage of the century: the Ever Given and the Suez Canal",
       "category": "Supply chain",
-      "type": "Checklist",
-      "readTime": "5 min",
-      "excerpt": "Blind spots in warehouses, routes and custody transfers.",
+      "type": "Analysis",
+      "readTime": "8 min",
+      "excerpt": "How a single vessel exposed the fragility of a critical route for global trade.",
       "body": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac nisi vel libero vulputate pretium. Integer sed libero at lorem rhoncus pulvinar id non lacus.",
-        "Etiam interdum leo eu magna efficitur, a vulputate velit egestas. Sed a justo tempor, hendrerit lectus nec, faucibus nisl. Integer dignissim lectus in tellus porta tristique.",
-        "Cras finibus, justo vel fermentum interdum, orci neque sagittis est, id viverra sapien magna a augue. Phasellus luctus sapien ut orci feugiat, sed gravida est convallis."
+        "On March 23, 2021, global trade stopped because of one ship. The Ever Given, a 400-meter container vessel with capacity for more than 20,000 TEUs, became wedged across the Suez Canal, a route that carries close to 12% of world trade.",
+        "Strong winds, complex maneuvering and the bank effect pushed the vessel into both sides of the canal. Within hours, a physical incident became a global logistics crisis.",
+        "More than 400 vessels were affected, and the blockage was estimated to delay roughly 9.6 billion dollars in goods every day. The congestion impacted containers, oil, LNG, livestock, medical equipment and industrial components.",
+        "The salvage operation required massive dredging, high-powered tugboats and favorable tides. On March 29, 2021, six and a half days after the grounding, the Ever Given was refloated, although traffic normalization took weeks.",
+        "For supply chain teams, the case exposed the risk of relying on single chokepoints. Many companies had to rethink alternative routes, safety stock and operating models less fragile than extreme just-in-time.",
+        "For insurance markets, the loss opened discussions around general average, delay losses, civil liability, P&I coverage and business interruption. The lesson is direct: efficiency without resilience can turn an accident into systemic exposure."
+      ]
+    },
+    "kfcChickenEffect": {
+      "title": "The KFC chicken effect: anatomy of a logistics collapse",
+      "category": "Risk",
+      "type": "Case study",
+      "readTime": "8 min",
+      "excerpt": "The supplier change that left hundreds of UK restaurants without chicken.",
+      "body": [
+        "In February 2018, KFC in the United Kingdom faced a crisis that sounded impossible: more than 750 of its 900 restaurants ran out of chicken. The case became public, expensive and especially useful for analyzing logistics decisions made under the promise of efficiency.",
+        "For almost three decades, KFC had worked with Bidvest Logistics under a decentralized model of six regional distribution centers. It was not necessarily the cheapest setup, but it had natural resilience: if one node failed, others could absorb part of the operation.",
+        "In 2017, KFC switched to DHL together with QSL and concentrated operations in one distribution center in Rugby. The design promised scale, lower inventory and a simpler network, but it also created a single point of failure.",
+        "On February 14, 2018, during the formal go-live, a serious accident on the M6 motorway blocked access to the Rugby center. Software integration issues and the challenge of managing fresh chicken in a demanding cold chain added pressure.",
+        "The consequence was immediate: closed restaurants, significant losses and a reputational crisis. KFC contained part of the brand damage with a transparent and humorous apology campaign, but it had to bring Bidvest back urgently to stabilize supply in several areas.",
+        "The lesson for risk and insurance is clear: efficiency is not resilience. When an operation depends on a single node, a traffic event, system failure or poorly tested transition can become business interruption. Cases like this open the conversation around traditional insurance, Trade Disruption Insurance and parametric solutions."
+      ]
+    },
+    "takataAirbagCrisis": {
+      "title": "The Takata airbag crisis",
+      "category": "Insurance",
+      "type": "Case study",
+      "readTime": "7 min",
+      "excerpt": "When a technical defect becomes an existential threat for an entire chain.",
+      "body": [
+        "The Takata crisis was not only the largest recall in automotive history. It showed how a technical decision, a culture of concealment and excessive supplier dependence can put manufacturers, consumers and insurers at risk.",
+        "In the late 1990s, Takata chose stabilized ammonium nitrate as the propellant for its airbag inflators. It was cheaper, but highly sensitive to humidity, heat and degradation over time.",
+        "When the compound became unstable, the inflator could detonate with excessive force, fragmenting its metal container and sending shrapnel toward occupants. A component designed to protect users became a source of severe injury.",
+        "Investigations revealed deeper failures: cost savings were prioritized over safety, test results were manipulated and transparency failed with customers such as Honda and Toyota. The technical risk became an ethical and governance failure.",
+        "The financial impact was massive. More than 100 million vehicles were affected, automakers set aside billions to manage replacements and Takata filed for bankruptcy in 2017 with liabilities exceeding 10 billion dollars.",
+        "For insurance, the case separates key concepts: product liability, product recall, contingent business interruption, reputational risk and Tier-N visibility. Resilience is not bought only through an insurance policy; it is built through operational transparency, rigorous testing and true supplier diversification."
       ]
     }
   },
