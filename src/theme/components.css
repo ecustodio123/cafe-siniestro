@@ -757,7 +757,9 @@
 .about-panel--what {
   grid-template-columns: minmax(320px, 0.95fr) minmax(0, 1.05fr);
   min-height: 520px;
+  border-radius: var(--radius-lg);
   background: rgba(255, 255, 255, 0.68);
+  overflow: hidden;
 }
 
 .about-panel--origin {
@@ -834,6 +836,20 @@
   display: block;
   margin-bottom: 1.1rem;
   background: var(--color-signal);
+}
+
+.origin-story__media {
+  margin: 0 0 1.2rem;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background: var(--color-bg-soft);
+}
+
+.origin-story__media img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  display: block;
+  object-fit: cover;
 }
 
 .origin-story p + p {
@@ -2062,12 +2078,11 @@
 
   .about-panel--what {
     min-height: 0;
-    background: transparent;
+    background: rgba(255, 255, 255, 0.68);
   }
 
   .about-panel__media {
     min-height: 300px;
-    border-radius: var(--radius-md);
   }
 
   .about-panel__media img {
